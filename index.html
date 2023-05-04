@@ -13,65 +13,67 @@
         height="80"
         alt="top_header_line"
       />
-      <nav>
+      <nav class="main-navigation">
         <ul>
-          <li class="logo-header">
-            <a href="/index.html"
-              ><span class="blue-logo">Web</span
-              ><span class="header-black-logo">Studio</span></a
+          <li>
+            <a class="logo-header" href="/index.html"
+              ><span class="blue-logo">Web</span><span>Studio</span></a
             >
           </li>
-          <li class="nav-links">
+          <li>
             <a href="/studio.html" class="active">Studio</a>
           </li>
-          <li class="nav-links"><a href="/portfolio.html">Portfolio</a></li>
-          <li class="nav-links"><a href="/contacts.html">Contacts</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/contacts.html">Contacts</a></li>
         </ul>
         <img src="./images/vector_studio.svg" alt="vector_studio" />
       </nav>
-      <a class="header-address" href="email:info@devstudio.com"
+      <a class="contact-links" href="email:info@devstudio.com"
         >info@devstudio.com</a
       >
-      <a class="header-address" href="tel:12127724150">+1 212-772-4150</a>
+      <a class="contact-links" href="tel:12127724150">+1 212-772-4150</a>
       <img src="./images/vector_email.svg" alt="vector_email" />
     </header>
     <main>
+      <!--Hero Section-->
       <section class="hero-section">
         <img src="./images/header_line.jpg" width="1600" alt="header_line" />
-        <div class="hero-image">
-          <div class="hero-text">
-            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button class="hero-button">Request our service</button>
+        <div>
+          <div>
+            <h1 class="hero-heading">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button class="hero-button" type="button">
+              Request our service
+            </button>
           </div>
         </div>
       </section>
       <!--Sections-->
       <!--Section 1-->
-      <section class="section1">
+      <section>
         <div>
-          <h4 class="section1-sub-heading">ATTENTION TO DETAILS</h4>
-          <p class="section1-content">
+          <h4 class="section-sub-heading">ATTENTION TO DETAILS</h4>
+          <p class="section-content">
             We go into all the details and processes of your business to develop
             a customized solution.
           </p>
         </div>
         <div>
-          <h4 class="section1-sub-heading">PUNCTUALITY</h4>
-          <p class="section1-content">
+          <h4 class="section-sub-heading">PUNCTUALITY</h4>
+          <p class="section-content">
             With us, you can feel safe and secure. An important principle of the
             company: respect your time and deadlines.
           </p>
         </div>
         <div>
-          <h4 class="section1-sub-heading">PLANNING</h4>
-          <p class="section1-content">
+          <h4 class="section-sub-heading">PLANNING</h4>
+          <p class="section-content">
             You will be able to observe and participate in every phase of
             solution development and implementation.
           </p>
         </div>
         <div>
-          <h4 class="section1-sub-heading">MODERN TECHNOLOGIES</h4>
-          <p class="section1-content">
+          <h4 class="section-sub-heading">MODERN TECHNOLOGIES</h4>
+          <p class="section-content">
             We use innovative tools to solve assigned tasks. It's time to
             simplify work processes.
           </p>
@@ -106,9 +108,9 @@
         </div>
       </section>
       <!--Our team-->
-      <section class=".section-with-gray-bg">
+      <section>
         <h2 class="section-heading">Our Team</h2>
-        <ul>
+        <ul class="team-members">
           <li>
             <img
               src="./images/christopher_walker.jpg"
@@ -117,9 +119,8 @@
               alt="christopher_walker"
             />
             <br />
-            <span class="section2-sub-heading">Christopher Walker</span>
-            <br />
-            <span class="section2-content">Product Designer</span>
+            <span>Christopher Walker<br /></span>
+            <span class="job-title">Product Designer</span>
           </li>
           <li>
             <img
@@ -129,9 +130,8 @@
               alt="kylie_evans"
             />
             <br />
-            <span class="section2-sub-heading"> Kylie Evans</span>
-            <br />
-            <span class="section2-content">Frontend Developer</span>
+            <span> Kylie Evans<br /></span>
+            <span class="job-title">Frontend Developer</span>
           </li>
           <li>
             <img
@@ -141,9 +141,8 @@
               alt="ryan_harris"
             />
             <br />
-            <span class="section2-sub-heading">Ryan Harris</span>
-            <br />
-            <span class="section2-content">Marketing</span>
+            <span>Ryan Harris <br /></span>
+            <span class="job-title">Marketing</span>
           </li>
           <li>
             <img
@@ -153,26 +152,28 @@
               alt="tyler_moore"
             />
             <br />
-            <span class="section2-sub-heading">Tyler Moore</span>
+            <span>Tyler Moore</span>
             <br />
-            <span class="section2-content">UI Designer</span>
+            <span class="job-title">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="section-footer">
-      <p class="logo-header">
-        <span class="blue-logo">Web</span
-        ><span class="footer-white-logo">Studio</span>
-      </p>
-      <address class="section section-address">
-        <span class="footer-address-line">695 Park Ave, NY 10065, USA </span
-        ><br />
-        <a class="no-underline" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >.<br />
-        <a class="no-underline" href="tel:+12127724150">+1 212-772-4150</a>
-      </address>
-    </footer>
+    <section>
+      <footer class="footer-section">
+        <p>
+          <a class="logo-header" href="/index.html"
+            ><span class="blue-logo">Web</span><span>Studio</span></a
+          >
+        </p>
+        <address>
+          <span>695 Park Ave, NY 10065, USA </span><br />
+          <a class="contact-links" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >.<br />
+          <a class="contact-links" href="tel:+12127724150">+1 212-772-4150</a>
+        </address>
+      </footer>
+    </section>
   </body>
 </html>
